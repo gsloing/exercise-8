@@ -7,7 +7,7 @@ const CardInfo = ({ title }) => {
   return (
     <>
       <h2> {title} </h2>
-      <Evolution title="Evolution by Devan" />
+      <Evolution title="Evolution by Devan " />
       <Logo title="Logo by Devan" />
       <TypeEffect title="TypeEffect by Devan" />
     </>
