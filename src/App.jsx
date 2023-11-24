@@ -1,6 +1,6 @@
 import './App.css'
 import Hello from ".components/Hello";
-import Greetings from "./components/Greetings";
+import Greetings from "./components/Header";
 
 const App = () => {
   const [title, setTitle] = useState ("Welcome");
