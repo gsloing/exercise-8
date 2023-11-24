@@ -1,14 +1,14 @@
-import CardInfo from "./Card-Info"
-import Search from "./Search"
+import CardInfo from "./Card-Info";
+import Search from "./Search";
 
-const Home = () => {
-    return (
+const Home = ({ title }) => {
+  return (
     <>
-        <h1>Home</h1>
-        <CardInfo />
-        <Search />
+      <h1>{title}</h1>
+      <CardInfo title="CardInfo by Ken" />
+      <Search title="Search by Ken" />
     </>
-    )
-}
+  );
+};
 
-export default Home
+export default Home;
