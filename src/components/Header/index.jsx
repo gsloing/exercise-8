@@ -6,8 +6,8 @@ const Header = ({title}) => {
     return (
         <>
             <h1>{title}</h1>
-            <Generation title="Generations" />
-            <Logo title="Logo" />
+            <Generation title="Generations/vica" />
+            <Logo title="Logo/vica" />
         </>
     )
 }
